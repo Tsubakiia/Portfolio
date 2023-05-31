@@ -13,11 +13,11 @@
 
 
 <header>
-<div>
-     <div class="wave"></div>
-     <div class="wave"></div>
-     <div class="wave"></div>
-  </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
 
     <div class="custom-shape-divider-bottom-1679297948">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -31,21 +31,18 @@
 <body>
 
     <nav class="main-menu">
-        <ul>
-            <li>
-                <a href="https://jbfarrow.com">
-                    <i class="fa fa-home fa-2x"></i>
+        <ul class="nav">
+            <li class="field">
+                <a class="page" href="Accueil.php">
+                    <i class="icons fa fa-home fa-2x"></i>
                     <span class="nav-text">
                         Accueil
                     </span>
                 </a>
-
-    
-
             </li>
-            <li class="has-subnav">
-                <a href="Contact.php">
-                    <i class="fa fa-comments fa-2x"></i>
+            <li class="field has-subnav">
+                <a class="page" href="Contact.php">
+                    <i class="icons fa fa-comments fa-2x"></i>
                     <span class="nav-text">
                         Contact
                     </span>
@@ -65,18 +62,31 @@
 
 <div class="kietil">
     <h2>Présentation</h2>
-    <div class="conteneur"> <p id="Pres">Je m'appelle Lucas PRADEL je suis actuellement en deuxième année de BTS SIO SLAM.</br>
-        Au cours de ce BTS j'ai pu développer mes compétences en développement web et applicatif nottament sur les langages suivants:</br></p>
-    <div class="banner"> <img id="ban" src="banner-g4220a4abd_1280.png">
-    <div class="lang"><img id="Lan" src="HTML.png" /><p id="under">CONFIRMÉ</p> </div>
-    <div class="lang"><img id="Lan" src="CSS.png" /><p id="under">CONFIRMÉ</p></div>
-    <div class="lang"><img id="Lanz" src="PHP.png" /><p id="under">INTERMEDIAIRE</p></div>
-    <div class="lang"><img id="Lanz" src="Java.png" /><p id="under">INTERMEDIAIRE</p></div>
-    <div class="lang"><img id="Lanz" src="C.png" /><p id="under">AMATEUR</p></div>
-    <div class="lang"><img id="Lanz" src="SQL.png" /><p id="under">AMATEUR</p></div>
-    </div>
-    <p id="Appren">J'ai soif d'apprentissage, je m'intéresse beaucoup aux langages que je ne connais pas comme le SASS ou encore le SCSS</br>
-        J'approfondis aussi les langages que j'ai peu vus comme le JavaScript</p>
+    <div class="conteneur">
+        <p id="Pres">Je m'appelle Lucas PRADEL je suis actuellement en deuxième année de BTS SIO SLAM.</br>
+            Au cours de ce BTS j'ai pu développer mes compétences en développement web et applicatif nottament sur les langages suivants:</br></p>
+        <div class="banner"> <img id="ban" src="banner-g4220a4abd_1280.png">
+            <div class="lang"><img id="Lan" src="HTML.png" />
+                <p id="under">CONFIRMÉ</p>
+            </div>
+            <div class="lang"><img id="Lan" src="CSS.png" />
+                <p id="under">CONFIRMÉ</p>
+            </div>
+            <div class="lang"><img id="Lanz" src="PHP.png" />
+                <p id="under">INTERMEDIAIRE</p>
+            </div>
+            <div class="lang"><img id="Lanz" src="Java.png" />
+                <p id="under">INTERMEDIAIRE</p>
+            </div>
+            <div class="lang"><img id="Lanz" src="C.png" />
+                <p id="under">AMATEUR</p>
+            </div>
+            <div class="lang"><img id="Lanz" src="SQL.png" />
+                <p id="under">AMATEUR</p>
+            </div>
+        </div>
+        <p id="Appren">J'ai soif d'apprentissage, je m'intéresse beaucoup aux langages que je ne connais pas comme le SASS ou encore le SCSS</br>
+            J'approfondis aussi les langages que j'ai peu vus comme le JavaScript</p>
     </div>
 </div>
 
@@ -136,7 +146,36 @@
 </main>
 
 <footer>
-    <p></p>
+    <h4>Retrouvez moi sur les réseaux</br></h4>
+    <ul class="social">
+        <li class="media">
+            <a class="social-icon facebook" href="https://www.facebook.com/profile.php?id=100009364535935">
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <i class="network fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="media">
+            <a class="social-icon twitter" href="https://twitter.com/pradel_lucas">
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <i class="network fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="media">
+            <a class="social-icon instagram" href="https://www.instagram.com/lucas_pradel65/?hl=fr">
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <span class="col"></span>
+                <i class="network fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
 </footer>
 </body>
 
